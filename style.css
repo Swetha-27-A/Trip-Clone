@@ -1,0 +1,364 @@
+.menu{
+     display: flex;
+     gap: 10px;
+}
+.menuimg img{
+    position: relative;
+    display: none;
+    top: 24px;
+    width: 15px;
+    height: 15px;
+}
+.menu__tripimg img{
+    position: relative;
+    top: 20px;
+    left: 30%;
+    width:40%;
+    
+}
+
+.categories{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    top:15px;
+    gap:30px;
+    text-align: center;
+    left: 100px;
+    
+}
+.icon{
+    display: flex;
+}
+.icon h1{
+   
+    font-size: 18px;
+    position: relative;
+    left: 310px;
+    top:19px ;
+}
+.icon img{
+    position: relative;
+    display: flex;
+    width:15px;
+    height: 15px;
+    left: 300px;
+    top:35px ;
+}
+.signin{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width:70px;
+    height:40px;
+    position: relative;
+    left: 310px;
+    top: 20px;
+}
+
+.where{
+    position: relative;
+    
+    text-align: center;
+    top: 20px;
+    font-size: x-large;
+    
+}
+
+.options{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 13%;
+
+}
+
+.search{
+    padding: 10px;
+    position: relative;
+    left: 30%;
+    border: solid grey 1px;
+    width: 600px;
+    height: 30px;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.search input{
+
+    padding: 5px;
+    border: none;
+    
+}
+.send{
+    position: relative;
+    left:330px ;
+    background-color: rgb(26, 197, 160);
+    color: black;
+    width:80px;
+    height: 40px;
+    border-radius: 30px;
+    bottom: 5px;
+    border: solid black 1px;
+}
+.box1{
+    display: flex;
+    padding: 10px;
+    margin-top:50px ;
+    position: relative;
+    left: 13%;
+    width: 1100px;
+    height: 470px;
+    background-color: rgb(224, 100, 100);
+    border-radius: 10px;
+
+}
+.box__s1 img{
+    padding: 10px;
+    border-radius: 20px;
+    width:600px;
+    height: 450px;
+    
+}
+.box__s2{
+    position: relative;
+    top: 2px;
+    width: 400px;
+    height:100px;
+    padding: 5px;
+    margin: 2px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box__s2 h5{
+    position: relative;
+    bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.find{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height:40px ;
+    width: 150px;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    bottom:20px ;   
+}
+.text h3,h5{
+    position: relative;
+    left: 13%;
+}
+.text__image {
+    padding: 20px;
+    display: flex;
+    gap:20px;
+    position: relative;
+    top:200%;
+    height: 200px; 
+    left:15%;
+}
+.text__image img{
+    width: 235px;
+}
+.images{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left:3%;
+}
+
+.img1 img{
+    border-radius: 10px;
+    height: 200px;
+    width:250px;
+}
+.img1{
+    position: relative;
+    height: 50px;
+    left: 13%;
+    width: 250px;
+}
+.chennai h3,p{
+    position: relative;
+    left: 13%;
+}
+.img2 img{
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    
+    
+}
+.img2{
+    position: relative;
+    height: 50px;
+    left: 14%;
+    width: 250px;
+
+}
+.img3 img{
+    border-radius: 10px;
+    width: 230px;
+    height: 200px;
+}
+ .img3{
+    position: relative;
+    height: 50px;
+    left: 14%;
+    width: 250px;
+ }
+ .img4 img{
+    border-radius: 10px;
+    width: 230px;
+    height: 200px;
+}
+ .img4{
+    position: relative;
+    height: 50px;
+    left: 14%;
+    width: 250px;
+ }
+ .line{
+    position: relative;
+    top: 350px;
+    left: 13%;
+ }
+ .images2{
+    display: flex;
+    gap: 20px;
+    top: 350px;
+    position: relative;
+    left: 16%;
+ }
+ .images2 img{
+    width: 240px;
+    height: 200px;
+    border-radius: 10px;
+ }
+
+ .footer{
+    display: flex;
+    position: relative;
+    bottom: px;
+    top: 400px;
+    width:1600px;
+    height:500px;
+    background-color:rgb(212, 210, 210);
+
+ }
+ .foot{
+    position: relative;
+    left: 12%;
+    padding: 20px;
+ }
+ .foot1{
+    position: relative;
+    left: 12%;
+    padding: 20px;
+ }
+ .foot2{
+    position: relative;
+    left: 12%;
+    padding: 20px;
+ }
+ .foot3{
+    position: relative;
+    left: 20%;
+    padding: 20px;
+ }
+ .footlines {
+   
+    position: relative;
+    left: 15%;
+    top: 200px;
+ }
+ .footlines ul{
+    display:flex;
+    font-size: 18px;
+    gap: 25px;
+    
+ }
+
+ @media screen and (max-width:600px){
+    .menuimg img{
+    display: block;
+    }
+    .categories{
+        display: none;
+    }
+    .menu__tripimg img{
+        width:60%
+    }
+    .options{
+    display:none; 
+    }
+    .search {
+        left: 0;
+        width: 500px;   
+    }
+    .send{
+        left: 46%;
+    }
+    .box1{
+        left:0;
+    }
+    .text h3,h5{
+    position: relative;
+    left: 0%;
+ }
+ .text__image {
+    left: 0%;
+ }
+ .chennai h3,p{
+    left:0%;
+ }
+ 
+ .img1,.img2,.img3,.img4{
+    left: 0%;
+ }
+ .line,.images2 {
+    left: 0%;
+ }
+ .foot,.foot1,.foot3{
+    left:0%;
+ }
+ .footlines{
+    font-size: 20px;
+    left:0%;
+ }
+ .footlines ul{
+    flex-wrap: wrap;
+ }
+ .box1{
+    flex-wrap: wrap;
+    width:400px;
+    height: 600px;
+ }
+.box__s1 img{
+    border: solid black 2px;
+    padding:10;
+    margin: 10;
+    width:350px;
+    height:300px;
+}
+.box__s2{
+    top:0;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+.box__s1 img:hover{
+        transition: 2s;
+        transform: rotateY(360deg);
+
+    }
+ }
+   
